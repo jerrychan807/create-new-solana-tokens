@@ -4,6 +4,8 @@
     "description": "create and launch new solana memecoin",
     "scripts": {
         "mint": "npx tsx mintToken.ts",
+        "create-sft": "npx tsx createSFT.ts",
+        "create-sft-v2": "npx tsx createSFTv2.ts",
         "create-keypair": "npx tsx createKeyPair.ts",
         "upload-metadata": "npx tsx uploadMetadata.ts"
         },

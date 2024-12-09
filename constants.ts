@@ -19,6 +19,7 @@ export const solanaConnection = new Connection(RPC_ENDPOINT, {
 });
 
 export const creatorWallet = getKeypairFromEnvironment('WALLET_SECRET_KEY');
+export const payerWallet = getKeypairFromEnvironment('WALLET_SECRET_KEY2');
 
 export const DEFAULT_TOKEN = {
   WSOL: new Token(
